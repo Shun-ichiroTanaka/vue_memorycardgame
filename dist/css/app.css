@@ -177,8 +177,12 @@ html {
   display: flex;
   flex-direction: column;
   margin: .8em 0;
+  text-align: center;
 }
-
+.twitter,
+.line {
+  padding-top: 5px;
+}
 
 @media screen and (min-width: 768px) {
   #app {
