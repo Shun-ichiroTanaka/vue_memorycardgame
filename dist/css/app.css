@@ -19,6 +19,7 @@ html {
 }
 
 #app {
+  height: 100vh;
   margin: .1em;
 }
 
@@ -39,6 +40,7 @@ html {
 }
 .cards {
   margin: 0 auto;
+  text-align: center;
 }
 .cards .card {
   position: relative;
