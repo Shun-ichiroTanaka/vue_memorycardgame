@@ -156,21 +156,27 @@ html {
 .splash .content .title {
   padding: .5em;
   font-size: 1.8em;
+  text-align: center;
 }
 .splash .content .score {
   padding: .5em;
 }
 .splash .content button {
   padding: 5px 20px;
-  margin-top: 1.0em;
+  margin: .8em 0;
   color: White;
   font-size: 1.4em;
-  background-color: #444;
-  border: 1px solid #555;
+  background-color: rgb(255, 136, 136);
           border-radius: 4px;
 
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
+}
+
+.sns {
+  display: flex;
+  flex-direction: column;
+  margin: .8em 0;
 }
 
 

@@ -28,7 +28,7 @@
   <div class="splash" v-if="showSplash">
     <div class="overlay"></div>
     <div class="content">
-      <div class="title">Finished！</div>
+      <div class="title">Finished!</div>
       <div class="score">Score: {{ score }}</div>
       <button class="newGame" @click="resetGame()">New game</button>
       <social-sharing url="https://shun-ichirotanaka.github.io/vue_memorycardgame/"
@@ -38,9 +38,9 @@
       hashtags="Vue.js,javascript,菅田将暉,神経衰弱,ゲーム"
       twitter-user=""
       inline-template>
-      <div>
+      <div class="sns">
           <network network="twitter"><i class="fa fa-fw fa-twitter"></i>Twitter</network>
-          <network network="line"><i class="fa fa-line"></i> Line</network>
+          <network network="line"><i class="fab fa-line"></i> Line</network>
       </div>
     </social-sharing>
     </div>
