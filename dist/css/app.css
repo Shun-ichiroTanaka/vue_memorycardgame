@@ -48,11 +48,12 @@ html {
   width: 60px;
   height: 100px;
   margin: .8em .3em;
-          transition: opacity .5s;
+          transition: opacity .4s;
 
-  -webkit-transition: opacity .5s;
-     -moz-transition: opacity .5s;
-       -o-transition: opacity .5s;
+  -webkit-transition: opacity .4s;
+     -moz-transition: opacity .4s;
+      -ms-transition: opacity .4s;
+       -o-transition: opacity .4s;
 }
 .cards .card .front,
 .cards .card .back {
@@ -68,7 +69,7 @@ html {
           transform: translateZ(0);
           transform-style: preserve-3d;
           backface-visibility: hidden;
-          transition:         transform .6s;
+          transition: transform .5s;
 
   -webkit-backface-visibility: hidden;
      -moz-backface-visibility: hidden;
@@ -77,9 +78,10 @@ html {
       -ms-transform: translateZ(0);
   -webkit-transform-style: preserve-3d;
      -moz-transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform .6s;
-     -moz-transition:    -moz-transform .6s;
-       -o-transition:      -o-transform .6s;
+  -webkit-transition: transform .5s;
+     -moz-transition: transform .5s;
+      -ms-transition: transform .5s;
+       -o-transition: transform .5s;
 }
 .cards .card .back {
   font-size: 12px;
