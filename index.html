@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>菅田将暉と神経衰弱！</title>
+  <title>菅田偏差値診断</title>
   <script src="https://use.fontawesome.com/e3ae05b8e6.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Monda&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dist/css/app.css">
 </head>
 <body>
+
 
 
 <div id="app">
@@ -30,11 +31,11 @@
     <div class="overlay"></div>
     <div class="content">
       <div class="title">Finished!</div>
-      <div class="score">Score: {{ score }}</div>
+      <div class="score">菅田偏差値: {{ score }}</div>
       <button class="newGame" @click="resetGame()">New game</button>
       <social-sharing url="https://shun-ichirotanaka.github.io/vue_memorycardgame/"
-      title="菅田将暉と神経衰弱！"
-      description="菅田将暉好きを神経衰弱のクリア速度で試してみた"
+      title="菅田将暉で神経衰弱"
+      description="菅田偏差値をゲームで測ってみた"
       quote="Vue is a progressive framework for building user interfaces."
       hashtags="Vue.js,javascript,菅田将暉,神経衰弱,ゲーム"
       twitter-user=""
@@ -47,7 +48,6 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="dist/js/bundle.js"></script>
 </body>
 </html>
